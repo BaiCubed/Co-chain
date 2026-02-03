@@ -82,7 +82,7 @@ See `pangu/README.md` for:
 
 ## Third-party & license
 
-- openPangu models are released under the **OPENPANGU MODEL LICENSE AGREEMENT (Version 1.0)** (see the `LICENSE` file in the model repository you download).
+- openPangu models are released under the **OPENPANGU MODEL LICENSE AGREEMENT (Version 1.0)**.
 - This repository **does not distribute** openPangu weights; it only provides scripts and documentation.
 
 More details: `THIRD_PARTY_NOTICES.md`.
