@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## 第三方与许可证
 
-- openPangu 模型以其官方仓库的 `LICENSE` 为准（通常为 OPENPANGU MODEL LICENSE AGREEMENT v1.0）。
+- openPangu 模型以其官方仓库的 `LICENSE` 为准。
 - 本仓库不分发模型权重，仅提供脚本与说明。
 
 ## 复现 openPangu 结果（合并后的模型）
