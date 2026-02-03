@@ -1,0 +1,1269 @@
+[
+  {
+    "id": "5822",
+    "tree": {
+      "L0_query": "turn up",
+      "L1_intent_and_slots": {
+        "intent": "audio_volume_up",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music"
+    }
+  },
+  {
+    "id": "3033",
+    "tree": {
+      "L0_query": "what's the current weather",
+      "L1_intent_and_slots": {
+        "intent": "weather_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "https://geocoding-api.open-meteo.com/v1/search",
+      "L4_final_executable_command": "https://geocoding-api.open-meteo.com/v1/search"
+    }
+  },
+  {
+    "id": "3249",
+    "tree": {
+      "L0_query": "cancel alarm for tenth of march two thousand seventeen",
+      "L1_intent_and_slots": {
+        "intent": "alarm_remove",
+        "slots": {
+          "date": "2017-03-10"
+        }
+      },
+      "L2_formatted_params": {
+        "date": "2017-03-10"
+      },
+      "L3_selected_url": "http://127.0.0.1:3000/alarm",
+      "L4_final_executable_command": "http://127.0.0.1:3000/alarm?date=2017-03-10"
+    }
+  },
+  {
+    "id": "4263",
+    "tree": {
+      "L0_query": "have you heard any good jokes lately",
+      "L1_intent_and_slots": {
+        "intent": "general_joke",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "15481",
+    "tree": {
+      "L0_query": "get it fast resolved",
+      "L1_intent_and_slots": {
+        "intent": "general_quirky",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "12833",
+    "tree": {
+      "L0_query": "alexa book me a train ticket for this afternoon to chicago",
+      "L1_intent_and_slots": {
+        "intent": "transport_ticket",
+        "slots": {
+          "destination": "chicago",
+          "time": "this afternoon"
+        }
+      },
+      "L2_formatted_params": {
+        "time": "2025-08-25 15:00"
+      },
+      "L3_selected_url": "http://127.0.0.1:3018/transport",
+      "L4_final_executable_command": "http://127.0.0.1:3018/transport?destination=chicago&time=2025-08-25%2015%3A00"
+    }
+  },
+  {
+    "id": "4539",
+    "tree": {
+      "L0_query": "i did not want you to send that text yet wait until i say send",
+      "L1_intent_and_slots": {
+        "intent": "email_sendemail",
+        "slots": {
+          "action": "cancel",
+          "message": "that text"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email?action=cancel&message=that%20text"
+    }
+  },
+  {
+    "id": "557",
+    "tree": {
+      "L0_query": "how many alarms are listed",
+      "L1_intent_and_slots": {
+        "intent": "alarm_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3000/alarm",
+      "L4_final_executable_command": "http://127.0.0.1:3000/alarm"
+    }
+  },
+  {
+    "id": "15720",
+    "tree": {
+      "L0_query": "tweet bad service related to out local haskell mcdonalds",
+      "L1_intent_and_slots": {
+        "intent": "social_post",
+        "slots": {
+          "content": "bad service",
+          "topic": "local haskell mcdonalds"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3015/social",
+      "L4_final_executable_command": "http://127.0.0.1:3015/social?content=bad%20service&topic=local%20haskell%20mcdonalds"
+    }
+  },
+  {
+    "id": "16209",
+    "tree": {
+      "L0_query": "send email to nancy about tomorrow's work party details",
+      "L1_intent_and_slots": {
+        "intent": "email_sendemail",
+        "slots": {
+          "recipient": "nancy",
+          "subject": "tomorrow's work party details"
+        }
+      },
+      "L2_formatted_params": {
+        "subject": "2025-08-26's work party details"
+      },
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email?recipient=nancy&subject=2025-08-26%27s%20work%20party%20details"
+    }
+  },
+  {
+    "id": "3316",
+    "tree": {
+      "L0_query": "find the latest article from chris hedges on truthdig",
+      "L1_intent_and_slots": {
+        "intent": "news_query",
+        "slots": {
+          "author": "chris hedges",
+          "source": "truthdig"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3020/news",
+      "L4_final_executable_command": "http://127.0.0.1:3020/news?author=chris%20hedges&source=truthdig"
+    }
+  },
+  {
+    "id": "9933",
+    "tree": {
+      "L0_query": "find a recipe for a romantic dinner for two",
+      "L1_intent_and_slots": {
+        "intent": "recommendation_locations",
+        "slots": {
+          "recipe_type": "romantic dinner for two"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa?recipe_type=romantic%20dinner%20for%20two"
+    }
+  },
+  {
+    "id": "16618",
+    "tree": {
+      "L0_query": "draft an email to kailey about work later",
+      "L1_intent_and_slots": {
+        "intent": "email_sendemail",
+        "slots": {
+          "recipient": "kailey",
+          "subject": "work",
+          "timing": "later"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email?recipient=kailey&subject=work&timing=later"
+    }
+  },
+  {
+    "id": "6553",
+    "tree": {
+      "L0_query": "whats happening in pop industry",
+      "L1_intent_and_slots": {
+        "intent": "news_query",
+        "slots": {
+          "topic": "pop industry"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3020/news",
+      "L4_final_executable_command": "http://127.0.0.1:3020/news?topic=pop%20industry"
+    }
+  },
+  {
+    "id": "2613",
+    "tree": {
+      "L0_query": "is today the fourth or the fifth",
+      "L1_intent_and_slots": {
+        "intent": "datetime_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar"
+    }
+  },
+  {
+    "id": "4149",
+    "tree": {
+      "L0_query": "please turn up the lights in this room",
+      "L1_intent_and_slots": {
+        "intent": "iot_hue_lightup",
+        "slots": {
+          "location": "this room"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3007/iot",
+      "L4_final_executable_command": "http://127.0.0.1:3007/iot?location=this%20room"
+    }
+  },
+  {
+    "id": "4571",
+    "tree": {
+      "L0_query": "the wemo plug should be turned off on",
+      "L1_intent_and_slots": {
+        "intent": "iot_wemo_off",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3007/iot",
+      "L4_final_executable_command": "http://127.0.0.1:3007/iot"
+    }
+  },
+  {
+    "id": "14632",
+    "tree": {
+      "L0_query": "what is the purpose of life",
+      "L1_intent_and_slots": {
+        "intent": "qa_factoid",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "12083",
+    "tree": {
+      "L0_query": "find the events",
+      "L1_intent_and_slots": {
+        "intent": "recommendation_events",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "8970",
+    "tree": {
+      "L0_query": "clear all concert schedule",
+      "L1_intent_and_slots": {
+        "intent": "calendar_remove",
+        "slots": {
+          "event_type": "concert",
+          "scope": "all"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar?event_type=concert&scope=all"
+    }
+  },
+  {
+    "id": "9159",
+    "tree": {
+      "L0_query": "olly create an event in my calendar",
+      "L1_intent_and_slots": {
+        "intent": "calendar_set",
+        "slots": {
+          "event_name": "olly"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar?event_name=olly"
+    }
+  },
+  {
+    "id": "9277",
+    "tree": {
+      "L0_query": "start radio and go to frequency on one thousand and forty eight",
+      "L1_intent_and_slots": {
+        "intent": "music",
+        "slots": {
+          "frequency": "1048"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?frequency=1048"
+    }
+  },
+  {
+    "id": "14244",
+    "tree": {
+      "L0_query": "how do you make steel",
+      "L1_intent_and_slots": {
+        "intent": "qa_factoid",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "7733",
+    "tree": {
+      "L0_query": "wake me up every weekday at seven am",
+      "L1_intent_and_slots": {
+        "intent": "alarm_set",
+        "slots": {
+          "frequency": "every weekday",
+          "time": "seven am"
+        }
+      },
+      "L2_formatted_params": {
+        "frequency": "every weekday",
+        "time": "07:00"
+      },
+      "L3_selected_url": "http://127.0.0.1:3000/alarm",
+      "L4_final_executable_command": "http://127.0.0.1:3000/alarm?frequency=every%20weekday&time=07%3A00"
+    }
+  },
+  {
+    "id": "2039",
+    "tree": {
+      "L0_query": "it's pleasant today",
+      "L1_intent_and_slots": {
+        "intent": "weather_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "https://geocoding-api.open-meteo.com/v1/search",
+      "L4_final_executable_command": "https://geocoding-api.open-meteo.com/v1/search"
+    }
+  },
+  {
+    "id": "4102",
+    "tree": {
+      "L0_query": "newest world news",
+      "L1_intent_and_slots": {
+        "intent": "news_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3020/news",
+      "L4_final_executable_command": "http://127.0.0.1:3020/news"
+    }
+  },
+  {
+    "id": "12060",
+    "tree": {
+      "L0_query": "i wish to go for cheap shopping is there any dollars shop nearby",
+      "L1_intent_and_slots": {
+        "intent": "recommendation_locations",
+        "slots": {
+          "location_type": "dollars shop",
+          "price_preference": "cheap"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa?location_type=dollars%20shop&price_preference=cheap"
+    }
+  },
+  {
+    "id": "7951",
+    "tree": {
+      "L0_query": "what's going on between three hundred and thirty and four",
+      "L1_intent_and_slots": {
+        "intent": "qa_maths",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "34",
+    "tree": {
+      "L0_query": "i want to listen arijit singh song once again",
+      "L1_intent_and_slots": {
+        "intent": "play_music",
+        "slots": {
+          "artist": "arijit singh",
+          "action": "repeat"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?artist=arijit%20singh&action=repeat"
+    }
+  },
+  {
+    "id": "15864",
+    "tree": {
+      "L0_query": "is alex saved in my contacts list",
+      "L1_intent_and_slots": {
+        "intent": "email_querycontact",
+        "slots": {
+          "contact_name": "alex"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email?contact_name=alex"
+    }
+  },
+  {
+    "id": "13094",
+    "tree": {
+      "L0_query": "what does session mean",
+      "L1_intent_and_slots": {
+        "intent": "qa_definition",
+        "slots": {
+          "word": "session"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa?word=session"
+    }
+  },
+  {
+    "id": "12297",
+    "tree": {
+      "L0_query": "hail taxi",
+      "L1_intent_and_slots": {
+        "intent": "transport_taxi",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3018/transport",
+      "L4_final_executable_command": "http://127.0.0.1:3018/transport"
+    }
+  },
+  {
+    "id": "15730",
+    "tree": {
+      "L0_query": "tell me if anything important is happening on social media today",
+      "L1_intent_and_slots": {
+        "intent": "social_query",
+        "slots": {
+          "timeframe": "today",
+          "importance": "important"
+        }
+      },
+      "L2_formatted_params": {
+        "timeframe": "2025-08-25"
+      },
+      "L3_selected_url": "http://127.0.0.1:3015/social",
+      "L4_final_executable_command": "http://127.0.0.1:3015/social?timeframe=2025-08-25&importance=important"
+    }
+  },
+  {
+    "id": "16136",
+    "tree": {
+      "L0_query": "check email and what is the latest subject",
+      "L1_intent_and_slots": {
+        "intent": "email_query",
+        "slots": {
+          "query_type": "latest_subject"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email?query_type=latest_subject"
+    }
+  },
+  {
+    "id": "5803",
+    "tree": {
+      "L0_query": "more light",
+      "L1_intent_and_slots": {
+        "intent": "iot_hue_lightup",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3007/iot",
+      "L4_final_executable_command": "http://127.0.0.1:3007/iot"
+    }
+  },
+  {
+    "id": "9125",
+    "tree": {
+      "L0_query": "when is my next dentist appointment",
+      "L1_intent_and_slots": {
+        "intent": "calendar_query",
+        "slots": {
+          "appointment_type": "dentist"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar?appointment_type=dentist"
+    }
+  },
+  {
+    "id": "1130",
+    "tree": {
+      "L0_query": "is it going to rain later today",
+      "L1_intent_and_slots": {
+        "intent": "weather_query",
+        "slots": {
+          "time": "later today",
+          "weather_condition": "rain"
+        }
+      },
+      "L2_formatted_params": {
+        "time": "2025-08-25"
+      },
+      "L3_selected_url": "https://geocoding-api.open-meteo.com/v1/search",
+      "L4_final_executable_command": "https://geocoding-api.open-meteo.com/v1/search?time=2025-08-25&weather_condition=rain"
+    }
+  },
+  {
+    "id": "17086",
+    "tree": {
+      "L0_query": "reply to this please",
+      "L1_intent_and_slots": {
+        "intent": "email_sendemail",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email"
+    }
+  },
+  {
+    "id": "10044",
+    "tree": {
+      "L0_query": "how do i make tuna casserole from scratch",
+      "L1_intent_and_slots": {
+        "intent": "qa_factoid",
+        "slots": {
+          "query": "how to make tuna casserole from scratch"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa?query=how%20to%20make%20tuna%20casserole%20from%20scratch"
+    }
+  },
+  {
+    "id": "2586",
+    "tree": {
+      "L0_query": "save this channel on pandora please",
+      "L1_intent_and_slots": {
+        "intent": "music",
+        "slots": {
+          "action": "save",
+          "target": "channel",
+          "platform": "pandora"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?action=save&target=channel&platform=pandora"
+    }
+  },
+  {
+    "id": "2607",
+    "tree": {
+      "L0_query": "is today march sixth",
+      "L1_intent_and_slots": {
+        "intent": "datetime_query",
+        "slots": {
+          "date": "march sixth"
+        }
+      },
+      "L2_formatted_params": {
+        "date": "2025-03-06"
+      },
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar?date=2025-03-06"
+    }
+  },
+  {
+    "id": "10594",
+    "tree": {
+      "L0_query": "i want to have a new playlist of songs",
+      "L1_intent_and_slots": {
+        "intent": "playlists_createoradd",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3008/lists",
+      "L4_final_executable_command": "http://127.0.0.1:3008/lists"
+    }
+  },
+  {
+    "id": "5517",
+    "tree": {
+      "L0_query": "remember this music",
+      "L1_intent_and_slots": {
+        "intent": "music_likeness",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music"
+    }
+  },
+  {
+    "id": "5800",
+    "tree": {
+      "L0_query": "will i need a jacket after ten pm in my area",
+      "L1_intent_and_slots": {
+        "intent": "weather_query",
+        "slots": {
+          "time": "after ten pm",
+          "location": "my area",
+          "clothing_advice": "jacket"
+        }
+      },
+      "L2_formatted_params": {
+        "time": "2025-08-25 22:00"
+      },
+      "L3_selected_url": "https://geocoding-api.open-meteo.com/v1/search",
+      "L4_final_executable_command": "https://geocoding-api.open-meteo.com/v1/search?time=2025-08-25%2022%3A00&location=my%20area&clothing_advice=jacket"
+    }
+  },
+  {
+    "id": "6639",
+    "tree": {
+      "L0_query": "a fresh day",
+      "L1_intent_and_slots": {
+        "intent": "general_greet",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "6924",
+    "tree": {
+      "L0_query": "do i have any meeting today",
+      "L1_intent_and_slots": {
+        "intent": "calendar_query",
+        "slots": {
+          "date": "today"
+        }
+      },
+      "L2_formatted_params": {
+        "date": "2025-08-25"
+      },
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar?date=2025-08-25"
+    }
+  },
+  {
+    "id": "3847",
+    "tree": {
+      "L0_query": "what are my favorite types of music",
+      "L1_intent_and_slots": {
+        "intent": "music_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music"
+    }
+  },
+  {
+    "id": "7290",
+    "tree": {
+      "L0_query": "delete all my appointments for today",
+      "L1_intent_and_slots": {
+        "intent": "calendar_remove",
+        "slots": {
+          "time": "today",
+          "scope": "all"
+        }
+      },
+      "L2_formatted_params": {
+        "time": "2025-08-25"
+      },
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar?time=2025-08-25&scope=all"
+    }
+  },
+  {
+    "id": "5507",
+    "tree": {
+      "L0_query": "please arrange to wake me up at three am alarm",
+      "L1_intent_and_slots": {
+        "intent": "alarm_set",
+        "slots": {
+          "time": "3:00 am"
+        }
+      },
+      "L2_formatted_params": {
+        "time": "03:00"
+      },
+      "L3_selected_url": "http://127.0.0.1:3000/alarm",
+      "L4_final_executable_command": "http://127.0.0.1:3000/alarm?time=03%3A00"
+    }
+  },
+  {
+    "id": "15814",
+    "tree": {
+      "L0_query": "alert me of an email from dave about the meeting",
+      "L1_intent_and_slots": {
+        "intent": "email_query",
+        "slots": {
+          "sender": "dave",
+          "subject": "meeting"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email?sender=dave&subject=meeting"
+    }
+  },
+  {
+    "id": "2577",
+    "tree": {
+      "L0_query": "lights off in the kitchen please",
+      "L1_intent_and_slots": {
+        "intent": "iot_hue_lightoff",
+        "slots": {
+          "location": "kitchen"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3007/iot",
+      "L4_final_executable_command": "http://127.0.0.1:3007/iot?location=kitchen"
+    }
+  },
+  {
+    "id": "10064",
+    "tree": {
+      "L0_query": "how many vegetables should i eat a day",
+      "L1_intent_and_slots": {
+        "intent": "qa_factoid",
+        "slots": {
+          "question": "how many vegetables should i eat a day"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa?question=how%20many%20vegetables%20should%20i%20eat%20a%20day"
+    }
+  },
+  {
+    "id": "1674",
+    "tree": {
+      "L0_query": "remove alarm of seven thirty am on monday",
+      "L1_intent_and_slots": {
+        "intent": "alarm_remove",
+        "slots": {
+          "time": "seven thirty am",
+          "day": "monday"
+        }
+      },
+      "L2_formatted_params": {
+        "time": "07:30",
+        "day": "2025-08-25"
+      },
+      "L3_selected_url": "http://127.0.0.1:3000/alarm",
+      "L4_final_executable_command": "http://127.0.0.1:3000/alarm?time=07%3A30&day=2025-08-25"
+    }
+  },
+  {
+    "id": "16855",
+    "tree": {
+      "L0_query": "jane doe emails",
+      "L1_intent_and_slots": {
+        "intent": "email_query",
+        "slots": {
+          "contact_name": "jane doe"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email?contact_name=jane%20doe"
+    }
+  },
+  {
+    "id": "4367",
+    "tree": {
+      "L0_query": "what is the current time in london",
+      "L1_intent_and_slots": {
+        "intent": "datetime_query",
+        "slots": {
+          "location": "london"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar?location=london"
+    }
+  },
+  {
+    "id": "9073",
+    "tree": {
+      "L0_query": "remove that event from calendar",
+      "L1_intent_and_slots": {
+        "intent": "calendar_remove",
+        "slots": {
+          "event": "that event"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar?event=that%20event"
+    }
+  },
+  {
+    "id": "11059",
+    "tree": {
+      "L0_query": "name the lists available",
+      "L1_intent_and_slots": {
+        "intent": "lists_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3008/lists",
+      "L4_final_executable_command": "http://127.0.0.1:3008/lists"
+    }
+  },
+  {
+    "id": "13364",
+    "tree": {
+      "L0_query": "when is president's day",
+      "L1_intent_and_slots": {
+        "intent": "datetime_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar"
+    }
+  },
+  {
+    "id": "915",
+    "tree": {
+      "L0_query": "turn the lights off to my room",
+      "L1_intent_and_slots": {
+        "intent": "iot_hue_lightoff",
+        "slots": {
+          "location": "room"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3007/iot",
+      "L4_final_executable_command": "http://127.0.0.1:3007/iot?location=room"
+    }
+  },
+  {
+    "id": "607",
+    "tree": {
+      "L0_query": "set mute for twenty minutes",
+      "L1_intent_and_slots": {
+        "intent": "audio_volume_mute",
+        "slots": {
+          "duration": "twenty minutes"
+        }
+      },
+      "L2_formatted_params": {
+        "duration": "00:20"
+      },
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?duration=00%3A20"
+    }
+  },
+  {
+    "id": "72",
+    "tree": {
+      "L0_query": "start playing music from favourites",
+      "L1_intent_and_slots": {
+        "intent": "play_music",
+        "slots": {
+          "source": "favourites"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?source=favourites"
+    }
+  },
+  {
+    "id": "4627",
+    "tree": {
+      "L0_query": "is it supposed to rain tomorrow",
+      "L1_intent_and_slots": {
+        "intent": "weather_query",
+        "slots": {
+          "date": "tomorrow",
+          "weather_type": "rain"
+        }
+      },
+      "L2_formatted_params": {
+        "date": "2025-08-26"
+      },
+      "L3_selected_url": "https://geocoding-api.open-meteo.com/v1/search",
+      "L4_final_executable_command": "https://geocoding-api.open-meteo.com/v1/search?date=2025-08-26&weather_type=rain"
+    }
+  },
+  {
+    "id": "5068",
+    "tree": {
+      "L0_query": "please put this playlist on shuffle",
+      "L1_intent_and_slots": {
+        "intent": "music_settings",
+        "slots": {
+          "playlist_action": "shuffle"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?playlist_action=shuffle"
+    }
+  },
+  {
+    "id": "1021",
+    "tree": {
+      "L0_query": "is there any rap that doesn't involve sex money and drugs",
+      "L1_intent_and_slots": {
+        "intent": "music_query",
+        "slots": {
+          "genre": "rap",
+          "exclude_content": "sex, money, drugs"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?genre=rap&exclude_content=sex%2C%20money%2C%20drugs"
+    }
+  },
+  {
+    "id": "4781",
+    "tree": {
+      "L0_query": "wake me up at six thirty",
+      "L1_intent_and_slots": {
+        "intent": "alarm_set",
+        "slots": {
+          "time": "six thirty"
+        }
+      },
+      "L2_formatted_params": {
+        "time": "18:30"
+      },
+      "L3_selected_url": "http://127.0.0.1:3000/alarm",
+      "L4_final_executable_command": "http://127.0.0.1:3000/alarm?time=18%3A30"
+    }
+  },
+  {
+    "id": "14702",
+    "tree": {
+      "L0_query": "explain what a contact lense is",
+      "L1_intent_and_slots": {
+        "intent": "qa_definition",
+        "slots": {
+          "term": "contact lense"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa?term=contact%20lense"
+    }
+  },
+  {
+    "id": "4257",
+    "tree": {
+      "L0_query": "please tell me the current date",
+      "L1_intent_and_slots": {
+        "intent": "datetime_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar"
+    }
+  },
+  {
+    "id": "2218",
+    "tree": {
+      "L0_query": "i want to listen to electric slide",
+      "L1_intent_and_slots": {
+        "intent": "play_music",
+        "slots": {
+          "song": "electric slide"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?song=electric%20slide"
+    }
+  },
+  {
+    "id": "231",
+    "tree": {
+      "L0_query": "could you please help me to order some sushi from deliveroo",
+      "L1_intent_and_slots": {
+        "intent": "transport_query",
+        "slots": {
+          "food_type": "sushi",
+          "delivery_service": "deliveroo"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3018/transport",
+      "L4_final_executable_command": "http://127.0.0.1:3018/transport?food_type=sushi&delivery_service=deliveroo"
+    }
+  },
+  {
+    "id": "8839",
+    "tree": {
+      "L0_query": "which is the next event coming up",
+      "L1_intent_and_slots": {
+        "intent": "calendar_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3002/calendar",
+      "L4_final_executable_command": "http://127.0.0.1:3002/calendar"
+    }
+  },
+  {
+    "id": "143",
+    "tree": {
+      "L0_query": "i don't like it",
+      "L1_intent_and_slots": {
+        "intent": "music_dislikeness",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music"
+    }
+  },
+  {
+    "id": "6696",
+    "tree": {
+      "L0_query": "hey olly i just lost my wallet today",
+      "L1_intent_and_slots": {
+        "intent": "general_greet",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "6333",
+    "tree": {
+      "L0_query": "i had the worst day ever today",
+      "L1_intent_and_slots": {
+        "intent": "general_quirky",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa"
+    }
+  },
+  {
+    "id": "9869",
+    "tree": {
+      "L0_query": "start dune from where i left off",
+      "L1_intent_and_slots": {
+        "intent": "music",
+        "slots": {
+          "media_title": "dune",
+          "resume_playback": "true"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?media_title=dune&resume_playback=true"
+    }
+  },
+  {
+    "id": "12859",
+    "tree": {
+      "L0_query": "when is the next train to london",
+      "L1_intent_and_slots": {
+        "intent": "transport_query",
+        "slots": {
+          "destination": "london",
+          "transport_type": "train"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3018/transport",
+      "L4_final_executable_command": "http://127.0.0.1:3018/transport?destination=london&transport_type=train"
+    }
+  },
+  {
+    "id": "14438",
+    "tree": {
+      "L0_query": "find exchange rate for u. s. d. to euro",
+      "L1_intent_and_slots": {
+        "intent": "qa_factoid",
+        "slots": {
+          "currency_from": "USD",
+          "currency_to": "EUR"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/qa",
+      "L4_final_executable_command": "http://127.0.0.1:3005/qa?currency_from=USD&currency_to=EUR"
+    }
+  },
+  {
+    "id": "6685",
+    "tree": {
+      "L0_query": "today i had a lunch with my longtime sweetheart play me a nice song to the mood",
+      "L1_intent_and_slots": {
+        "intent": "play_music",
+        "slots": {
+          "mood": "romantic",
+          "context": "lunch with sweetheart"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?mood=romantic&context=lunch%20with%20sweetheart"
+    }
+  },
+  {
+    "id": "9543",
+    "tree": {
+      "L0_query": "tune in to ryan seacrest on the living room radio",
+      "L1_intent_and_slots": {
+        "intent": "music:play_music",
+        "slots": {
+          "artist": "ryan seacrest",
+          "device": "living room radio"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?artist=ryan%20seacrest&device=living%20room%20radio"
+    }
+  },
+  {
+    "id": "16835",
+    "tree": {
+      "L0_query": "send the email to this new email address",
+      "L1_intent_and_slots": {
+        "intent": "email_sendemail",
+        "slots": {
+          "recipient": "this new email address"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email?recipient=this%20new%20email%20address"
+    }
+  },
+  {
+    "id": "6076",
+    "tree": {
+      "L0_query": "can you find out the latest world news from yesterday",
+      "L1_intent_and_slots": {
+        "intent": "news_query",
+        "slots": {
+          "time_period": "yesterday",
+          "news_topic": "world news"
+        }
+      },
+      "L2_formatted_params": {
+        "time_period": "2025-08-24"
+      },
+      "L3_selected_url": "http://127.0.0.1:3020/news",
+      "L4_final_executable_command": "http://127.0.0.1:3020/news?time_period=2025-08-24&news_topic=world%20news"
+    }
+  },
+  {
+    "id": "16203",
+    "tree": {
+      "L0_query": "do i have any new inbox message",
+      "L1_intent_and_slots": {
+        "intent": "email_query",
+        "slots": {}
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3005/email",
+      "L4_final_executable_command": "http://127.0.0.1:3005/email"
+    }
+  },
+  {
+    "id": "5129",
+    "tree": {
+      "L0_query": "play playlist one",
+      "L1_intent_and_slots": {
+        "intent": "playlists_createoradd",
+        "slots": {
+          "playlist_name": "one"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3008/lists",
+      "L4_final_executable_command": "http://127.0.0.1:3008/lists?playlist_name=one"
+    }
+  },
+  {
+    "id": "12195",
+    "tree": {
+      "L0_query": "give me the update on traffic at new york",
+      "L1_intent_and_slots": {
+        "intent": "transport_traffic",
+        "slots": {
+          "location": "new york"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3018/transport",
+      "L4_final_executable_command": "http://127.0.0.1:3018/transport?location=new%20york"
+    }
+  },
+  {
+    "id": "1335",
+    "tree": {
+      "L0_query": "i like justin beibers music please play it",
+      "L1_intent_and_slots": {
+        "intent": "music_likeness",
+        "slots": {
+          "artist": "justin beiber"
+        }
+      },
+      "L2_formatted_params": {},
+      "L3_selected_url": "http://127.0.0.1:3009/music",
+      "L4_final_executable_command": "http://127.0.0.1:3009/music?artist=justin%20beiber"
+    }
+  }
+]

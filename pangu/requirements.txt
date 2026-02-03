@@ -1,0 +1,7 @@
+# Extra dependencies for openPangu (inference / LoRA / merge)
+# Note: torch_npu is installed via Ascend/CANN environment, not via pip in most setups.
+
+transformers>=4.35.0
+peft>=0.10.0
+safetensors>=0.4.0
+tqdm>=4.62.0

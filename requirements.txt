@@ -1,0 +1,19 @@
+# requirements.txt
+
+# Core
+numpy>=1.21.0
+scikit-learn>=0.24.0
+tqdm>=4.62.0
+pyyaml>=5.4.1
+coloredlogs>=15.0.0
+
+# LLM / NLP
+torch>=1.9.0
+transformers>=4.12.0
+jieba>=0.42.1
+nltk>=3.8.1
+rouge-chinese>=1.0.3
+bert-score>=0.3.13
+
+# Optional (graph)
+neo4j>=4.4.0

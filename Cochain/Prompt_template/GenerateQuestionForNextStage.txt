@@ -1,0 +1,5 @@
+You are a project coordinator. Your task is to convert a high-level solution from a previous stage into specific, actionable instructions for the next stage. For example, given the Q&A about manufacturing and the distilled methods, you need to generate instructions for the QI stage. Context Q&A:
+
+Q: How can the preferential use of lightweight materials be achieved in the manufacturing process?
+A: 1. Material Research and Analysis... 2. Structural Optimization... Distilled Methods: "Ensure the selected lightweight materials are appropriate, Inspect that ..."
+Your Generated Instructions for QI Stage should be: Instruction: How to ensure the selected lightweight materials are appropriate in the QI stage? Instruction: How to inspect that the optimized material structure does not compromise strength in the QI stage? Now, here is my Q&A and its distilled methods: Q: {instruction} A: {output} method: {method}

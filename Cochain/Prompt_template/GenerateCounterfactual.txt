@@ -1,0 +1,5 @@
+Causal counterfactual reasoning, assuming certain factors affecting the original problem have changed. For example, the original question is modified to: If engine design efficiency does not improve, will fuel economy increase?
+
+You are an expert in counterfactual reasoning. Please read an example first. The original question is: How to improve fuel economy? Now using {instruction_modified}
+
+I now have a question and need to generate its counterfactual version. My question is: {instruction} Please directly output its counterfactual version.

@@ -1,0 +1,13 @@
+I want to build a knowledge graph. Below is a question-answer pair. Your task is to extract knowledge triples where:
+
+1. Entity 1 is derived from the keywords in the question.
+2. The Relation describes the method or dependency.
+3. Entity 2 is derived from the keywords in the answer.
+
+For example:
+instruction: "How should I choose engine oil?"
+output: "Choosing the right engine oil depends on the car's model and operating conditions; 5W-30 or 5W-40 oils are recommended."
+The corresponding triple could be: Entity 1: engine oil, Relation: selection depends on, Entity 2: car model and operating conditions.
+Please extract triples from the following Q&A pair: Q: {instruction} A: {output}
+
+Directly output the triples in the format: "Entity 1: ..., Relation: ..., Entity 2: ...". Entity 1 should be derived from the question, and Entity 2 from the answer. You can output multiple triples, but please ensure entities are atomic and avoid multiple concepts within a single entity.
